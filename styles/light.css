@@ -9,15 +9,16 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --bold-weight: bold;
-  --regular-weight: normal;
-  --normal-text-size: 18px;
-  --text-font-family: 'IBM Plex mono';
+  --background-image: url("../images/cover-image-light.png");
   --accent-color: #FF8DCB;
   --h1-color: #FFC2E6;
-  --background-image: url("../images/cover-image-light.png");
-  --background-color: #353430;
+  --background-color: #FFF1F7;
+  --title-decor-text-color: #353430;
   --text-color: #353430;
+  --button-hover-color: #32312D66;
+  --title-text-color: #353430;
+  --record-text-display: none;
+  --record-dot-display: none;
 }
 
 .theme-light .page {
@@ -27,14 +28,15 @@
 @media (prefers-color-scheme: light) {
   :root {
     /* Дублируем переменные светлой темы */    
-    --bold-weight: bold;
-    --regular-weight: normal;
-    --normal-text-size: 18px;
-    --text-font-family: 'IBM Plex mono';
+    --background-image: url("../images/cover-image-light.png");
     --accent-color: #FF8DCB;
     --h1-color: #FFC2E6;
-    --background-image: url("../images/cover-image-light.png");
-    --background-color: #353430;
+    --background-color: #FFF1F7;
+    --title-decor-text-color: #353430;
     --text-color: #353430;
+    --button-hover-color: #32312D66;
+    --title-text-color: #353430;
+    --record-text-display: none;
+    --record-dot-display: none;
   }
 }

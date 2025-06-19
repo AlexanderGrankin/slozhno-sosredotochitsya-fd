@@ -4,14 +4,14 @@
 */
 
 :root{
-  --bold-weight: bold;
-  --regular-weight: normal;
-  --normal-text-size: 18px;
-  --text-font-family: 'IBM Plex mono';
+  --background-image: url("../images/cover-image-dark.png");
   --accent-color: #FF0070;
   --h1-color: #DB00FF;
-  --background-image: url("../images/cover-image-dark.png");
   --background-color: #000028;
   --title-decor-text-color: #000028;
   --text-color: #F1B2CE;
+  --button-hover-color: #FF007066;
+  --title-text-color: #FF0070;
+  --record-text-display: inline;
+  --record-dot-display: block;
 }
