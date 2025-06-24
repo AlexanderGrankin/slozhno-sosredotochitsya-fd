@@ -10,33 +10,31 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --background-image: url("../images/cover-image-light.png");
-  --accent-color: #FF8DCB;
-  --h1-color: #FFC2E6;
   --background-color: #FFF1F7;
+  --accent-color: #353430;
+  --h1-color: #FFC2E6;
+  --h1-text-shadow: #FF8DCB;
+  --header-text-color: ##353430;
+  --title-decor-bg-color: #FF8DCB;
   --title-decor-text-color: #353430;
   --text-color: #353430;
-  --button-hover-color: #32312D66;
-  --title-text-color: #353430;
-  --record-text-display: none;
-  --record-dot-display: none;
-}
-
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+  --link-color: #FF8DCB;
+  --record-display: none;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     /* Дублируем переменные светлой темы */    
     --background-image: url("../images/cover-image-light.png");
-    --accent-color: #FF8DCB;
-    --h1-color: #FFC2E6;
     --background-color: #FFF1F7;
+    --accent-color: #353430;
+    --h1-color: #FFC2E6;
+    --h1-text-shadow: #FF8DCB;
+    --header-text-color: ##353430;
+    --title-decor-bg-color: #FF8DCB;
     --title-decor-text-color: #353430;
     --text-color: #353430;
-    --button-hover-color: #32312D66;
-    --title-text-color: #353430;
-    --record-text-display: none;
-    --record-dot-display: none;
+    --link-color: #FF8DCB;
+    --record-display: none;
   }
 }

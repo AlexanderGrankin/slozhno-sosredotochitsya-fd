@@ -10,17 +10,14 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --background-image: url("../images/cover-image-dark.png");
+  --background-color: #000028;
   --accent-color: #FF0070;
   --h1-color: #DB00FF;
-  --background-color: #000028;
+  --h1-text-shadow: #FF0070;
+  --header-text-color: #000028;
+  --title-decor-bg-color: #FF0070;
   --title-decor-text-color: #000028;
   --text-color: #F1B2CE;
-  --button-hover-color: #FF007066;
-  --title-text-color: #FF0070;
-  --record-text-display: inline;
-  --record-dot-display: block;
-}
-
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+  --link-color: #FF0070;
+  --record-display: flex;
 }
