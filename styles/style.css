@@ -18,6 +18,7 @@
   background-color: var(--title-decor-bg-color);
   font-weight: bold;
   color: var(--title-decor-text-color);
+  font-size: 18px;
 }
 
 .header{
@@ -142,19 +143,20 @@
   margin: 0;
 }
 
-.section-subtitle{
-  font-size: 18px;
-  margin: 0;
-}
-
-.section-text{
+.card-text{
   margin: 0;
   color: var(--text-color);
   line-height: 23.45px;
   padding-top: 10px;
 }
 
-.section-item{
+.card-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.card{
   grid-column: 1;
 }
 
@@ -172,28 +174,15 @@
   border: 1px solid var(--text-color);
 }
 
-.what-reduces-concentration__container{
+.what-reduces-concentration .card-container{
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
 }
 
-.advices{
-  margin: 0;
-  display: grid;
-  row-gap: 20px;
-}
-
-.advice-title{
+.regular-weight-title{
   margin: 0;
   font-weight: normal;
-}
-
-.advice-text{
-  margin: 0;
-  line-height: 23.45px;
-  margin-top: 10px;
-  color: var(--text-color);
 }
 
 .gallery-image{
@@ -276,7 +265,7 @@
     grid-column: 1/2;
   }
 
-  .hard-to-concentrate .section-item{
+  .hard-to-concentrate .card-container{
     grid-column: 2/4;
   }
   
@@ -290,13 +279,13 @@
     grid-row: 1;
   }
 
-  .what-reduces-concentration__container{
+  .what-reduces-concentration .card-container{
     grid-template-columns: repeat(3, 1fr);
     grid-column: 1/4;
     grid-row: 2;
   }
 
-  .what-reduces-concentration .section-item{
+  .what-reduces-concentration .card{
     grid-column: 1/4;
   }
 
@@ -318,7 +307,7 @@
     gap: 20px;
   }
 
-  .gallery .section-subtitle{
+  .gallery .title-decor{
     grid-row: 1;
     grid-column: 1/4;
   }
@@ -403,11 +392,11 @@
     grid-row: 1;
   }
 
-  .what-reduces-concentration .section-item {
+  .what-reduces-concentration .card {
     grid-column: span 1; 
   } 
 
-  .what-reduces-concentration__container{
+  .what-reduces-concentration .card-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
