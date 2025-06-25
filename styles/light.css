@@ -20,6 +20,7 @@
   --text-color: #353430;
   --link-color: #FF8DCB;
   --record-display: none;
+  --button-hover-border-color: #32312D66;
 }
 
 @media (prefers-color-scheme: light) {
@@ -36,5 +37,6 @@
     --text-color: #353430;
     --link-color: #FF8DCB;
     --record-display: none;
+    --button-hover-border-color: #32312D66;
   }
 }
